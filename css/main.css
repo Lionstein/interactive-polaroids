@@ -25,27 +25,30 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+  position: absolute;
+  left: 5em;
+  bottom: 1em;
 }
 
 .polaroid:first-child {
   z-index: 1;
   transform: rotate(-10deg);
-  left: 340px;
-  top: 250px;
+  left: 20%;
+  top: 100px;
 }
 
 .polaroid:nth-child(2) {
   z-index: 3;
   transform: rotate(5deg);
-  left: 440px;
-  top: 300px;
+  left: 30%;
+  top: 150px;
 }
 
-.polaroid:last-child {
+.polaroid:nth-child(3) {
   z-index: 2;
   transform: rotate(20deg);
-  left: 540px;
-  top: 250px;
+  left: 40%;
+  top: 100px;
 }
 
 .polaroid:hover {
